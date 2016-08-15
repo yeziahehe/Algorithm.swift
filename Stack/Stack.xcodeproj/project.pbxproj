@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CA1404D1D61FAA9004AA1D2 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1404C1D61FAA9004AA1D2 /* StackTests.swift */; };
+		2CA140531D61FBA8004AA1D2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2CA140521D61FBA8004AA1D2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		2CA140491D61FAA9004AA1D2 /* StackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA1404C1D61FAA9004AA1D2 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		2CA1404E1D61FAA9004AA1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA140521D61FBA8004AA1D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXGroup;
 			children = (
 				2CA140441D61FA93004AA1D2 /* Stack.swift */,
+				2CA140521D61FBA8004AA1D2 /* README.md */,
 				2CA140431D61FA89004AA1D2 /* Stack.playground */,
 				2CA1404B1D61FAA9004AA1D2 /* StackTests */,
 				2CA1404A1D61FAA9004AA1D2 /* Products */,
@@ -122,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA140531D61FBA8004AA1D2 /* README.md in Sources */,
 				2CA1404D1D61FAA9004AA1D2 /* StackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
