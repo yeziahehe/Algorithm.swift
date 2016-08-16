@@ -28,8 +28,8 @@ Algorithm.swift 是基于Xcode 7.3 (e.g., Swift 2.2)或者更高，代码的风�
 【持续更新中...】
 
 ## 数据结构
-- 表-Lists
-  - [栈-Stack](https://github.com/yeziahehe/Algorithm.swift/tree/master/Stack)
+- 表 - Lists
+  - [栈 - Stack](https://github.com/yeziahehe/Algorithm.swift/tree/master/Stack)
 
 【持续更新中...】
 
