@@ -12,23 +12,33 @@
 # 让我们开始吧！
 Algorithm.swift 是基于Xcode 7.3 (e.g., Swift 2.2)或者更高，代码的风格基于 [the RayWenderlich Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)。
 
+目录树按照如下的分布，以Stack为例：
+- README.md: 对于算法教程讲解
+- Stack.xcodeproj: 项目主文件
+- Stack.playground: 用于快速实现算法的原理文件
+- Stack.swift: 归纳整理算法的源文件
+- StackTests: 单元测试文件夹
+
 ## 博客 & 电子书
 考虑到很多的小伙伴可能通过学习教程更加的便捷，所以同步会更新代码的博客 [Ivan's Blog](http://yeziahehe.com)。
 
 目前内容较少，暂时不开放电子书的入口，后续在一个章节结束后会正式发布，敬请期待！[Algorithm.swift]()！
 
 ## 算法
-【更新中】
+【持续更新中...】
 
 ## 数据结构
-【更新中】
+- 表-Lists
+  - [栈-Stack](https://github.com/yeziahehe/Algorithm.swift/tree/master/Stack)
+
+【持续更新中...】
 
 # 贡献
 喜欢我的这个点子？喜欢我现在做的这件事？那么赶紧加入进来吧！
 
-- 未提及或者更优化的算法，提交 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 到 develop 分支。
-- 有任何的疑问或者bug，提交 [Issue](https://github.com/yeziahehe/Algorithm.swift/issues)，我会第一时间反馈。
-- 想加入我一起来做这个事情，请联系我 yeziahehe@gmail.com，让我们一起来做点有意义的事情吧！
+- 如果你发现了bug或者有疑问，新建 [Issue](https://github.com/yeziahehe/Algorithm.swift/issues) 或者通过 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 提交你的修改到 develop 分支。
+- 如果有未提及或者更优化的算法，新建 [Issue](https://github.com/yeziahehe/Algorithm.swift/issues) 或者通过 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 提交你的新代码到 develop 分支。
+- 如果想加入我一起来做这个事情，通过 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 提交你的点子或者通过邮件联系我 yeziahehe@gmail.com，让我们一起来做点有意义的事情吧！
 
 # License
 All content is licensed under the terms of [the MIT open source license](https://github.com/yeziahehe/Algorithm.swift/blob/master/LICENSE).
