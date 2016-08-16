@@ -28,16 +28,17 @@ Algorithm.swift 是基于Xcode 7.3 (e.g., Swift 2.2)或者更高，代码的风�
 【持续更新中...】
 
 ## 数据结构
-- [栈](https://github.com/yeziahehe/Algorithm.swift/tree/master/Stack)
+- 表-Lists
+  - [栈-Stack](https://github.com/yeziahehe/Algorithm.swift/tree/master/Stack)
 
 【持续更新中...】
 
 # 贡献
 喜欢我的这个点子？喜欢我现在做的这件事？那么赶紧加入进来吧！
 
-- 未提及或者更优化的算法，提交 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 到 develop 分支。
-- 有任何的疑问或者bug，提交 [Issue](https://github.com/yeziahehe/Algorithm.swift/issues)，我会第一时间反馈。
-- 想加入我一起来做这个事情，请联系我 yeziahehe@gmail.com，让我们一起来做点有意义的事情吧！
+- 如果你发现了bug或者有疑问，新建 [Issue](https://github.com/yeziahehe/Algorithm.swift/issues) 或者通过 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 提交你的修改到 develop 分支。
+- 如果有未提及或者更优化的算法，新建 [Issue](https://github.com/yeziahehe/Algorithm.swift/issues) 或者通过 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 提交你的新代码到 develop 分支。
+- 如果想加入我一起来做这个事情，通过 [Pull Request](https://help.github.com/articles/creating-a-pull-request/) 提交你的点子或者通过邮件联系我 yeziahehe@gmail.com，让我们一起来做点有意义的事情吧！
 
 # License
 All content is licensed under the terms of [the MIT open source license](https://github.com/yeziahehe/Algorithm.swift/blob/master/LICENSE).
