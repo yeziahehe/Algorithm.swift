@@ -7,29 +7,47 @@
 //
 
 import XCTest
+@testable import Stack
 
 class StackTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testEmptyIntStack() {
+        var stack = Stack<Int>()
+        XCTAssertTrue(stack.isEmpty)
+        XCTAssertEqual(stack.count, 0)
+        XCTAssertEqual(stack.top(), nil)
+        XCTAssertNil(stack.pop())
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func testEmptyStringStack() {
+        var stack = Stack<String>()
+        XCTAssertTrue(stack.isEmpty)
+        XCTAssertEqual(stack.count, 0)
+        XCTAssertEqual(stack.top(), nil)
+        XCTAssertNil(stack.pop())
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testPushAndPop() {
+        var stack = Stack<String>()
+        stack.push("i")
+        XCTAssertFalse(stack.isEmpty)
+        XCTAssertEqual(stack.count, 1)
+        XCTAssertEqual(stack.top(), "i")
+        
+        let result = stack.pop()
+        XCTAssertEqual(result, "i")
+        XCTAssertTrue(stack.isEmpty)
+        XCTAssertEqual(stack.count, 0)
+        XCTAssertEqual(stack.top(), nil)
+        XCTAssertNil(stack.pop())
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+    func testEmptyPop() {
+        var stack = Stack<String>()
+        stack.pop()
+        XCTAssertTrue(stack.isEmpty)
+        XCTAssertEqual(stack.count, 0)
+        XCTAssertEqual(stack.top(), nil)
+        XCTAssertNil(stack.pop())
     }
     
 }
