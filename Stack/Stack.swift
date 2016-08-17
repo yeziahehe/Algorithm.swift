@@ -8,7 +8,7 @@
 
 public struct Stack<Element> {
     
-    private var array = Array<Element>()
+    fileprivate var array = Array<Element>()
     
     /**
      获取当前栈的长度
@@ -39,7 +39,7 @@ public struct Stack<Element> {
      - parameter element: 需要插入的值
      - 时间复杂度: O(1)
      */
-    public mutating func push(element: Element) {
+    public mutating func push(_ element: Element) {
         array.append(element)
     }
     
@@ -53,10 +53,10 @@ public struct Stack<Element> {
     }
 }
 
-extension Stack: SequenceType {
-    public func generate() -> AnyGenerator<Element> {
+extension Stack: Sequence {
+    public func makeIterator() -> AnyIterator<Element> {
         var curr = self
-        return AnyGenerator {
+        return AnyIterator {
             _ -> Element? in
             return curr.pop()
         }
