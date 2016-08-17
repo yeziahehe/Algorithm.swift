@@ -43,3 +43,6 @@ public struct Stack<Element> {
 ```
 
 具体代码参见[Stack.swift](https://github.com/yeziahehe/Algorithm.swift/blob/master/Stack/Stack.swift)。
+
+# 使用场景
+栈的强项是处理反转的能力，通常用在 `回文字符串`、`逆波兰计算器`、`括号的匹配`。
