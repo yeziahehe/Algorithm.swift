@@ -1,6 +1,6 @@
 # 欢迎来到 Algorithm.swift ！
-[![Language](https://img.shields.io/badge/swift-2.2-orange.svg)](http://swift.org)
-[![IDE](https://img.shields.io/badge/xcode-7.3-46aae6.svg)](https://developer.apple.com/xcode/)
+[![Language](https://img.shields.io/badge/swift-3-orange.svg)](http://swift.org)
+[![IDE](https://img.shields.io/badge/xcode-8 beta6-46aae6.svg)](https://developer.apple.com/xcode/)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/yeziahehe/Algorithm.swift/blob/master/LICENSE)
 
 ![Algorithm.swift](Algorithm.png)
@@ -30,6 +30,7 @@ Algorithm.swift 是基于Xcode 7.3 (e.g., Swift 2.2)或者更高，代码的风�
 ## 数据结构
 - 表 - Lists
   - [栈 - Stack](https://github.com/yeziahehe/Algorithm.swift/tree/master/Stack)
+  - [队列 - Queue](https://github.com/yeziahehe/Algorithm.swift/tree/master/Queue)
 
 【持续更新中...】
 
