@@ -1,6 +1,6 @@
 # 欢迎来到 Algorithm.swift ！
 [![Language](https://img.shields.io/badge/swift-3.0-orange.svg)](http://swift.org)
-[![IDE](https://img.shields.io/badge/xcode-8.0 beta6-46aae6.svg)](https://developer.apple.com/xcode/)
+[![IDE](https://img.shields.io/badge/xcode-8.0-46aae6.svg)](https://developer.apple.com/xcode/)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/yeziahehe/Algorithm.swift/blob/master/LICENSE)
 
 ![Algorithm.swift](Algorithm.png)
@@ -10,7 +10,7 @@
 本项目是来解释算法的含义和运用，更多的关注点在代码的简洁性和易读性上，而不是整理出可以复用的代码框架。综上，你可以在项目代码的基础上做一点点微调来适用于你的项目。
 
 # 让我们开始吧！
-Algorithm.swift 是基于Xcode 8.0 Beta6 (e.g., Swift 3.0)或者更高，代码的风格基于 [the RayWenderlich Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)。
+Algorithm.swift 是基于Xcode 8.0(e.g., Swift 3.0)或者更高，代码的风格基于 [the RayWenderlich Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)。
 
 目录树按照如下的分布，以Stack为例：
 - README.md: 对于算法教程讲解
