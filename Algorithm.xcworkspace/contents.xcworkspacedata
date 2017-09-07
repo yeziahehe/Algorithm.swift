@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Stack"
+      name = "Stack">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:Stack.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Stack.playground">
+      </FileRef>
+   </Group>
+</Workspace>

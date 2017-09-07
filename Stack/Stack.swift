@@ -1,14 +1,13 @@
 //
 //  Stack.swift
-//  Stack
+//  
 //
-//  Created by 叶帆 on 16/8/15.
-//
+//  Created by 叶帆 on 2017/9/6.
 //
 
-public struct Stack<Element> {
+public struct Stack<T> {
     
-    fileprivate var array = Array<Element>()
+    fileprivate var array = [T]()
     
     /**
      获取当前栈的长度
@@ -22,7 +21,7 @@ public struct Stack<Element> {
      判断是否为空
      - returns: 如果Stack为空，则值为true，否则值为false
      */
-    public func isEmpty() -> Bool {
+    public var isEmpty: Bool {
         return array.isEmpty
     }
     
@@ -30,7 +29,7 @@ public struct Stack<Element> {
      获取栈顶元素的值
      - returns: 栈顶元素的值，如果为空返回nil
      */
-    public func top() -> Element? {
+    public var top: T? {
         return array.last
     }
     
@@ -39,7 +38,7 @@ public struct Stack<Element> {
      - parameter element: 需要插入的值
      - 时间复杂度: O(1)
      */
-    public mutating func push(_ element: Element) {
+    public mutating func push(_ element: T) {
         array.append(element)
     }
     
@@ -48,7 +47,7 @@ public struct Stack<Element> {
      - returns: 返回删除栈顶元素的值，如果为空返回nil
      - 时间复杂度: O(1)
      */
-    public mutating func pop() -> Element? {
+    public mutating func pop() -> T? {
         return array.popLast()
     }
 }

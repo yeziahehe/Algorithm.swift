@@ -1,24 +1,24 @@
-public struct Stack<Element> {
+public struct Stack<T> {
     
-    private var array = Array<Element>()
+    fileprivate var array = [T]()
     
     public var count: Int {
         return array.count
     }
     
-    public func isEmpty() -> Bool {
+    public var isEmpty: Bool {
         return array.isEmpty
     }
     
-    public func top() -> Element? {
+    public var top: T? {
         return array.last
     }
     
-    public mutating func push(element: Element) {
+    public mutating func push(_ element: T) {
         array.append(element)
     }
     
-    public mutating func pop() -> Element? {
+    public mutating func pop() -> T? {
         return array.popLast()
     }
 }
@@ -27,13 +27,12 @@ var testArray = Stack(array: ["y", "e", "z"])
 
 testArray.push("i")
 testArray.pop()
-testArray.isEmpty()
+testArray.isEmpty
 testArray.count
-testArray.top()
+testArray.top
 
 testArray.pop()
 testArray.pop()
 testArray.pop()
 testArray.pop()
 testArray.count
-
